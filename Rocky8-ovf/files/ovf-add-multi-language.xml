@@ -1,0 +1,150 @@
+  <Strings xml:lang="en">
+    <Msg ovf:msgid="config.extra_small.label">Extra Small</Msg>
+    <Msg ovf:msgid="config.extra_small.description">
+      IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+      The resource configuration is as follows:
+      * 2 vCPU
+      * 4GB RAM
+      * 100GB Storage
+    </Msg>
+    <Msg ovf:msgid="config.normal.label">Extra Small</Msg>
+    <Msg ovf:msgid="config.normal.description">
+      IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+      The resource configuration is as follows:
+      * 4 vCPU
+      * 8GB RAM
+      * 100GB Storage
+    </Msg>
+    <Msg ovf:msgid="config.small.label">Extra Small</Msg>
+    <Msg ovf:msgid="config.small.description">
+      IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+      The resource configuration is as follows:
+      * 4 vCPU
+      * 16GB RAM
+      * 100GB Storage
+    </Msg>
+    <Msg ovf:msgid="config.medium.label">Extra Small</Msg>
+    <Msg ovf:msgid="config.medium.description">
+      IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+      The resource configuration is as follows:
+      * 6 vCPU
+      * 24GB RAM
+      * 100GB Storage
+    </Msg>
+    <Msg ovf:msgid="config.large.label">Extra Small</Msg>
+    <Msg ovf:msgid="config.large.description">
+      IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+      The resource configuration is as follows:
+      * 12 vCPU
+      * 48GB RAM
+      * 100GB Storage
+    </Msg>
+    <Msg ovf:msgid="config.xlarge.label">Extra Small</Msg>
+    <Msg ovf:msgid="config.xlarge.description">
+      IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+      The resource configuration is as follows:
+      * 16 vCPU
+      * 64GB RAM
+      * 100GB Storage
+    </Msg>  
+    <Msg ovf:msgid="category.networking">Networking</Msg>
+    <Msg ovf:msgid="category.networking.hostname.label">Hostname</Msg>
+    <Msg ovf:msgid="category.networking.hostname.description">Hostname of System</Msg>
+    <Msg ovf:msgid="category.networking.ipaddress.label">IP Address</Msg>
+    <Msg ovf:msgid="category.networking.ipaddress.description">The IPv4 Address for the VM.(e.g. 192.168.10.100)</Msg>
+    <Msg ovf:msgid="category.networking.netmask.label">Netmask</Msg>
+    <Msg ovf:msgid="category.networking.netmask.description">The IPv4 Netmask for the VM.(e.g. 255.255.255.0)</Msg>
+    <Msg ovf:msgid="category.networking.gateway.label">IPv4 Gateway</Msg>
+    <Msg ovf:msgid="category.networking.gateway.description">The default IPv4 gateway for the VM.(eg. 192.168.10.1)</Msg>
+    <Msg ovf:msgid="category.networking.dnss.label">DNS Server List</Msg>
+    <Msg ovf:msgid="category.networking.dnss.description">The DNS server list for this VM.(Space separated,eg. 192.168.10.1 192.168.10.2)</Msg>
+    <Msg ovf:msgid="category.networking.domains.label">Domain Search List</Msg>
+    <Msg ovf:msgid="category.networking.domains.description">The Domain search list for this VM.(Space separated,eg. corp.local corp.com)</Msg>
+    <Msg ovf:msgid="category.networking.ntps.label">NTP Server List</Msg>
+    <Msg ovf:msgid="category.networking.ntps.description">The NTP server list(Space separated,eg. 192.168.10.10 192.168.10.11) for this VM.</Msg>
+    <Msg ovf:msgid="category.credentials">Credentials</Msg>
+    <Msg ovf:msgid="category.credentials.user.label">Default Login User</Msg>
+    <Msg ovf:msgid="category.credentials.user.description">After the system deployment is completed, log in by "cloud-user", it has password-free sudo permissions.</Msg>
+    <Msg ovf:msgid="category.credentials.user_password.label">System cloud-user User Password</Msg>
+    <Msg ovf:msgid="category.credentials.user_password.description">Password to login in as cloud-user. Please use a secure password</Msg>
+    <Msg ovf:msgid="category.credentials.disabledroot.label">Disable remote login for Root user</Msg>
+    <Msg ovf:msgid="category.credentials.disabledroot.description">To improve security, Root remote access is disabled by default, but you can undisable it.</Msg>
+    <Msg ovf:msgid="category.debug">Debug Options</Msg>
+    <Msg ovf:msgid="category.debug.debug.label">Debugging</Msg>
+    <Msg ovf:msgid="category.debug.debug.description">Enable Debugging</Msg>
+  </Strings>
+  <Strings xml:lang="zh-cn">
+    <Msg ovf:msgid="config.extra_small.label">特小</Msg>
+    <Msg ovf:msgid="config.extra_small.description">
+      重要信息：此配置中的硬盘驱动器是模板大小的。 如果您需要业务数据盘，请在部署完成后添加第二块硬盘。
+      资源配置如下：
+      * 2 vCPU
+      * 4GB 内存
+      * 100GB 硬盘
+    </Msg>
+    <Msg ovf:msgid="config.normal.label">标准</Msg>
+    <Msg ovf:msgid="config.normal.description">
+      重要信息：此配置中的硬盘驱动器是模板大小的。 如果您需要业务数据盘，请在部署完成后添加第二块硬盘。
+      资源配置如下：
+      * 4 vCPU
+      * 8GB 内存
+      * 100GB 硬盘
+    </Msg>
+    <Msg ovf:msgid="config.small.label">小型</Msg>
+    <Msg ovf:msgid="config.small.description">
+      重要信息：此配置中的硬盘驱动器是模板大小的。 如果您需要业务数据盘，请在部署完成后添加第二块硬盘。
+      资源配置如下：
+      * 4 vCPU
+      * 16GB 内存
+      * 100GB 硬盘
+    </Msg>
+    <Msg ovf:msgid="config.medium.label">中型</Msg>
+    <Msg ovf:msgid="config.medium.description">
+      重要信息：此配置中的硬盘驱动器是模板大小的。 如果您需要业务数据盘，请在部署完成后添加第二块硬盘。
+      资源配置如下：
+      * 6 vCPU
+      * 24GB 内存
+      * 100GB 硬盘
+    </Msg>
+    <Msg ovf:msgid="config.large.label">大型</Msg>
+    <Msg ovf:msgid="config.large.description">
+      重要信息：此配置中的硬盘驱动器是模板大小的。 如果您需要业务数据盘，请在部署完成后添加第二块硬盘。
+      资源配置如下：
+      * 12 vCPU
+      * 48GB 内存
+      * 100GB 硬盘
+    </Msg>
+    <Msg ovf:msgid="config.xlarge.label">特大型</Msg>
+    <Msg ovf:msgid="config.xlarge.description">
+      重要信息：此配置中的硬盘驱动器是模板大小的。 如果您需要业务数据盘，请在部署完成后添加第二块硬盘。
+      资源配置如下：
+      * 16 vCPU
+      * 64GB 内存
+      * 100GB 硬盘
+    </Msg>
+    <Msg ovf:msgid="category.networking">网络配置</Msg>
+    <Msg ovf:msgid="category.networking.hostname.label">主机名</Msg>
+    <Msg ovf:msgid="category.networking.hostname.description">操作系统主机名</Msg>
+    <Msg ovf:msgid="category.networking.ipaddress.label">IPv4 地址</Msg>
+    <Msg ovf:msgid="category.networking.ipaddress.description">虚拟机的IPv4地址。(例如. 192.168.10.100)</Msg>
+    <Msg ovf:msgid="category.networking.netmask.label">IPv4 子网掩码</Msg>
+    <Msg ovf:msgid="category.networking.netmask.description">虚拟机的IPv4子网掩码。(例如. 255.255.255.0)</Msg>
+    <Msg ovf:msgid="category.networking.gateway.label">IPv4 网关</Msg>
+    <Msg ovf:msgid="category.networking.gateway.description">虚拟机的IPv4默认网关。(例如. 192.168.10.1)</Msg>
+    <Msg ovf:msgid="category.networking.dnss.label">DNS服务器</Msg>
+    <Msg ovf:msgid="category.networking.dnss.description">虚拟机的DNS服务器列表。(空格分割多个地址，例如. 192.168.10.1 192.168.10.2)</Msg>
+    <Msg ovf:msgid="category.networking.domains.label">DNS搜索域</Msg>
+    <Msg ovf:msgid="category.networking.domains.description">虚拟机的DNS搜索域列表。(空格分割多个域名，例如. corp.local corp.com)</Msg>
+    <Msg ovf:msgid="category.networking.ntps.label">NTP服务器</Msg>
+    <Msg ovf:msgid="category.networking.ntps.description">虚拟机NTP服务器列表。(空格分割多个地址，例如. 192.168.10.10 192.168.10.11)</Msg>
+    <Msg ovf:msgid="category.credentials">凭证配置</Msg>
+    <Msg ovf:msgid="category.credentials.user.label">默认登录用户</Msg>
+    <Msg ovf:msgid="category.credentials.user.description">系统部署完成后，通过“cloud-user”用户登录，其具有免密sudo权限。</Msg>
+    <Msg ovf:msgid="category.credentials.user_password.label">cloud-user 密码</Msg>
+    <Msg ovf:msgid="category.credentials.user_password.description">设置“cloud-user”的密码，轻使用复杂密码。</Msg>
+    <Msg ovf:msgid="category.credentials.disabledroot.label">禁用Root远程访问</Msg>
+    <Msg ovf:msgid="category.credentials.disabledroot.description">为提升安全性，默认禁用Root远程访问，你可以取消禁用。</Msg>    
+    <Msg ovf:msgid="category.debug">Debug配置</Msg>
+    <Msg ovf:msgid="category.debug.debug.label">Debug</Msg>
+    <Msg ovf:msgid="category.debug.debug.description">开启Debug，用于排查自动化配置问题。</Msg>
+  </Strings>

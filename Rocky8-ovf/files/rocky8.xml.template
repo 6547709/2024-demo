@@ -1,0 +1,56 @@
+    <ProductSection ovf:required="true">
+    <Info>Information about the installed software</Info>
+      <Product>Rocky8  Appliance</Product>
+      <Vendor>DevOps Labs</Vendor>
+      <Version>@@VERSION@@</Version>
+      <ProductUrl>https://www.guoqiangli.com</ProductUrl>
+      <VendorUrl>https://www.guoqiangli.com</VendorUrl>
+      <Category ovf:msgid="category.networking">Networking</Category>
+        <Property ovf:key="guestinfo.hostname" ovf:type="string" ovf:userConfigurable="true">
+            <Label ovf:msgid="category.networking.hostname.label">Hostname</Label>
+            <Description ovf:msgid="category.networking.hostname.description">Hostname of system</Description>
+        </Property>
+        <Property ovf:key="guestinfo.ipaddress" ovf:type="string" ovf:userConfigurable="true">
+            <Label ovf:msgid="category.networking.ipaddress.label">IP Address</Label>
+            <Description ovf:msgid="category.networking.ipaddress.description">The IPv4 Address for the VM.(e.g. 192.168.10.100)</Description>
+        </Property>
+        <Property ovf:key="guestinfo.netmask" ovf:type="string" ovf:userConfigurable="true">
+            <Label ovf:msgid="category.networking.netmask.label">Netmask</Label>
+            <Description ovf:msgid="category.networking.netmask.description">The IPv4 Netmask for the VM.(e.g. 255.255.255.0)</Description>
+        </Property>
+        <Property ovf:key="guestinfo.gateway" ovf:type="string" ovf:userConfigurable="true">
+            <Label ovf:msgid="category.networking.gateway.label">IPv4 Gateway</Label>
+            <Description ovf:msgid="category.networking.gateway.description">The default IPv4 gateway for the VM.(eg. 192.168.10.1)</Description>
+        </Property>
+        <Property ovf:key="guestinfo.dnss" ovf:type="string" ovf:userConfigurable="true">
+            <Label ovf:msgid="category.networking.dnss.label">DNS Server List</Label>
+            <Description ovf:msgid="category.networking.dnss.description">The DNS server list for this VM.(Space separated,eg. 192.168.10.1 192.168.10.2)</Description>
+        </Property>
+        <Property ovf:key="guestinfo.domains" ovf:type="string" ovf:userConfigurable="true">
+            <Label ovf:msgid="category.networking.domains.label">Domain Search List</Label>
+            <Description ovf:msgid="category.networking.domains.description">The Domain search list for this VM.(Space separated,eg. corp.local corp.com)</Description>
+        </Property>
+        <Property ovf:key="guestinfo.ntps" ovf:type="string" ovf:userConfigurable="true">
+            <Label ovf:msgid="category.networking.ntps.label">NTP Server List</Label>
+            <Description ovf:msgid="category.networking.ntps.description">The NTP server list(Space separated,eg. 192.168.10.10 192.168.10.11) for this VM.</Description>
+        </Property>
+      <Category ovf:msgid="category.credentials">Credentials</Category>
+        <Property ovf:key="guestinfo.user" ovf:type="string" ovf:userConfigurable="false" ovf:value="cloud-user">
+            <Label ovf:msgid="category.credentials.user.label">Default Login User</Label>
+            <Description ovf:msgid="category.credentials.user.description">After the system deployment is completed, log in by "cloud-user", it has password-free sudo permissions.</Description>
+        </Property>
+        <Property ovf:key="guestinfo.user_password" ovf:password="true" ovf:type="string" ovf:userConfigurable="true" ovf:qualifiers="MinLen(8)" ovf:value="">
+            <Label ovf:msgid="category.credentials.user_password.label">System cloud-user User Password</Label>
+            <Description ovf:msgid="category.credentials.user_password.description">Password to login in as cloud-user. Please use a secure password</Description>
+        </Property>
+        <Property ovf:key="guestinfo.disabledroot" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="true">
+            <Label ovf:msgid="category.credentials.disabledroot.label">Disable remote login for Root user</Label>
+            <Description ovf:msgid="category.credentials.disabledroot.description">To improve security, Root remote access is disabled by default, but you can undisable it.</Description>
+        </Property>
+      <Category ovf:msgid="category.debug">Debug Options</Category>
+        <Property ovf:key="guestinfo.debug" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="false">
+            <Label ovf:msgid="category.debug.debug.label">Debugging</Label>
+            <Description ovf:msgid="category.debug.debug.description">Enable Debugging</Description>
+        </Property>
+    </ProductSection>
+    

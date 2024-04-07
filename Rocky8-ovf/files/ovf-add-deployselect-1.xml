@@ -1,0 +1,69 @@
+  <DeploymentOptionSection>
+    <Info>The list of deployment options</Info>
+    <Configuration ovf:id="extra_small">
+      <Label ovf:msgid="config.extra_small.label">extra_small</Label>
+      <Description ovf:msgid="config.extra_small.description">
+IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+
+The resource configuration is as follows:
+* 2 vCPU
+* 4GB RAM
+* 100GB Storage
+      </Description>
+    </Configuration>
+    <Configuration ovf:id="normal" ovf:default="true">
+      <Label ovf:msgid="config.normal.label">normal</Label>
+      <Description ovf:msgid="config.normal.description">
+IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+
+The resource configuration is as follows:
+* 4 vCPU
+* 8GB RAM
+* 100GB Storage
+      </Description>
+    </Configuration>
+    <Configuration ovf:id="small">
+      <Label ovf:msgid="config.small.label">small</Label>
+      <Description ovf:msgid="config.small.description">
+IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+
+The resource configuration is as follows:
+* 4 vCPU
+* 16GB RAM
+* 100GB Storage
+      </Description>
+    </Configuration>
+    <Configuration ovf:id="medium">
+      <Label ovf:msgid="config.medium.label">medium</Label>
+      <Description ovf:msgid="config.medium.description">
+IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+
+The resource configuration is as follows:
+* 6 vCPU
+* 24GB RAM
+* 100GB Storage
+      </Description>
+    </Configuration>
+    <Configuration ovf:id="large">
+      <Label ovf:msgid="config.large.label">large</Label>
+      <Description ovf:msgid="config.large.description">
+IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+
+The resource configuration is as follows:
+* 12 vCPU
+* 48GB RAM
+* 100GB Storage
+      </Description>
+    </Configuration>
+    <Configuration ovf:id="xlarge">
+      <Label ovf:msgid="config.xlarge.label">xlarge</Label>
+      <Description ovf:msgid="config.xlarge.description">
+IMPORTANT: The hard drives in this configuration are template sized. If you need a business data disk, please add a second hard disk after the deployment is completed.
+
+The resource configuration is as follows:
+* 16 vCPU
+* 64GB RAM
+* 100GB Storage
+      </Description>
+    </Configuration>
+  </DeploymentOptionSection>
